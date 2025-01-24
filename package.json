@@ -1,0 +1,29 @@
+{
+  "name": "task-manager-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ "scripts": {
+  "start": "node src/server.js",
+  "dev": "nodemon src/server.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesleygp-io/task-manager-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wesleygp-io/task-manager-app/issues"
+  },
+  "homepage": "https://github.com/wesleygp-io/task-manager-app#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
